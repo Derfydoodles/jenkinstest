@@ -7,7 +7,7 @@ pipeline {
                 ok "Yes, we should."
                 submitter "John,Marcia"
                 parameters {
-					string(name: 'Person', defaultValue: 'Mr Jenkins', description: 'Who should i offer food to?')
+					string(name: 'Person', defaultValue: 'DerfyDoodles', description: 'Who should i offer food to?')
 				}
             }
 			steps {
